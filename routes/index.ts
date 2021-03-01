@@ -1,10 +1,10 @@
 //All routes container
-import usersRoutes from './users';
+import employeesRoutes from './employees';
 import techStacksRoutes from './techStacks';
 import companiesRoutes from './companies';
 
 const routes = {
-    usersRoutes, techStacksRoutes, companiesRoutes
+    employeesRoutes, techStacksRoutes, companiesRoutes
 }
 
 export = routes;

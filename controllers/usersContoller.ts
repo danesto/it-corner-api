@@ -1,5 +1,5 @@
-export const getUsers = (req: any, res: any) => {
+export const getEmployees = (req: any, res: any) => {
     res.json({
-        message: 'All users'
+        message: 'All employees'
     })
 }
